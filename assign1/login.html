@@ -1,4 +1,4 @@
-
+<!-- 
 
 
 <!DOCTYPE html>
@@ -55,6 +55,72 @@
     </center>
 </form>
 
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body bgcolor="#FFFFF0">
+    <center>
+        <table bgcolor="lightblue" width="100%">
+            <tr>
+                <td align="center" color="white">
+                    <h1>REGISTER HERE TO GET BTECH COURSE STRUCTURE</h1>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <div>
+        <center><h1>Register</h1></center>
+       
+        <!-- Added enctype for file upload -->
+        <form action="assign1.html" method="post" enctype="multipart/form-data">
+            <center>
+            <table border="2" cellpadding="10">
+                <tr><td colspan="2" align="center"><b>Register</b></td></tr>
+
+                <tr>
+                    <td>Name:</td>
+                    <td><input placeholder="enter your name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input placeholder="enter your email" required></td>
+                </tr>
+                <tr>
+                    <td>Enrollment No:</td>
+                    <td><input placeholder="enter the enrollment number" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input placeholder="set your password" type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input placeholder="rewrite the password" type="password"></td>
+                </tr>
+
+                <!-- New field for uploading a photo -->
+                <tr>
+                    <td>Upload Photo:</td>
+                    <td><input type="file" name="photo" accept="image/*" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">get course</button>
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </form>
     </div>
 </body>
 </html>
